@@ -1,0 +1,25 @@
+{
+  "name": "practical03",
+  "version": "0.0.0",
+  "authors": [
+    "Julien Muetton <themouette@gmail.com>"
+  ],
+  "description": "solution for backbone practicals",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "http://edu.muetton.me",
+  "devDependencies": {
+    "requirejs": "~2.1.10",
+    "almond": "~0.2.9",
+    "backbone": "~1.1.0",
+    "lodash": "~2.4.1",
+    "jquery": "~2.1.0"
+  }
+}

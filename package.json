@@ -1,0 +1,25 @@
+{
+  "name": "practical03",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab-edu.muetton.me:themouette/backbone-app.git"
+  },
+  "author": "Julien Muetton <themouette@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt": "~0.4.2",
+    "load-grunt-tasks": "~0.3.0",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-concurrent": "~0.4.3",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
