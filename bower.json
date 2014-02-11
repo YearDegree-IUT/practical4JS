@@ -20,6 +20,7 @@
     "almond": "~0.2.9",
     "backbone": "~1.1.0",
     "lodash": "~2.4.1",
-    "jquery": "~2.1.0"
+    "jquery": "~2.1.0",
+    "tpl": "https://github.com/eeroan/requirejs-tpl.git"
   }
 }
