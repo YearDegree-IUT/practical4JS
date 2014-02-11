@@ -30,5 +30,5 @@ Repository is organised as follow:
 ## Commands
 
 * `grunt dev` in dev mode
-* `grunt release connect:release` to release and view released code.
+* `grunt release connect:release:keepalive` to release and view released code.
 
