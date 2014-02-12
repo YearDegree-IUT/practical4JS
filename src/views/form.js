@@ -2,8 +2,19 @@ define([
     'tpl!templates/form.tpl',
     'underscore',
     'backbone',
-    'models/character'
+    'models/character',
+    'backbone-forms',
+    'backbone-nested-model'
 ], function (tpl, _, Backbone, Character) {
+
+    var ch = new Character();
+
+    var form = new Backbone.Form({
+        model: ch
+    }).render();
+
+    $('body').append(form.el);
+
 
     var Form = Backbone.View.extend({
         events: {
